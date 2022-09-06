@@ -25,7 +25,8 @@ This code mean that all 3 palindrome checkers have a isPalindrome method.
 The class PalindromeCheckTest contains three methods which each test
 a single palindrome checker class using assertions. The code looks
 like below:
-```
+
+``` Java
     PalFirst first = new PalFirst();
     @Test
     @DisplayName("Check Pal Method 1")
