@@ -15,8 +15,10 @@ There are three methods of checking for palindromes which are:
 There are 3 palindrome checkers named PalFirst, PalSecond
 and PalThird that all implement the interface PalInterface.
 The PalInterface has the code:
-```
-boolean isPalindrome(String text);
+```java
+public interface PalInterface {
+    boolean isPalindrome(String text);
+}
 ```
 This code mean that all 3 palindrome checkers have a isPalindrome method.
 
